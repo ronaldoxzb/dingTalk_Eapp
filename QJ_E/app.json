@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "page/index/index",
+    "page/component/sign/signup/signup",
+    "page/component/studycenter/study" 
+  ],
+  "window": {
+    "enableWK": "YES",
+    "enableDSL": true,
+    "defaultTitle": "放心衢江",
+    "backgroundColor": "#F5F5F9",
+    "pullRefresh": true,
+    "allowsBounceVertical": true
+  },
+  "tabBar": {
+    "textColor": "#404040",
+    "selectedColor": "#108ee9",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "page/index/index",
+        "icon": "image/icon_component.png",
+        "activeIcon": "image/icon_component_HL.png",
+        "name": "组团联村"
+      },
+      {
+        "pagePath": "page/component/studycenter/study",
+        "icon": "image/icon_biz.png",
+        "activeIcon": "image/icon_biz_HL.png",
+        "name": "视频监控"
+      },
+      {
+        "pagePath": "page/component/sign/signup/signup",
+        "icon": "image/icon_API.png",
+        "activeIcon": "image/icon_API.png",
+        "name": "网格支部"
+      }
+    ]
+  },
+   "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

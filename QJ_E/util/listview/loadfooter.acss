@@ -1,0 +1,50 @@
+.load_more {
+  width: 65%;
+  margin: 20rpx auto;
+  font-size: 14px;
+  text-align: center;
+  display: flex;
+   color: gray;
+  flex-direction: row;
+  justify-content: center;
+}
+.load_loading {
+  margin: 2px 5px;
+  width: 40rpx;
+  height: 40rpx;
+  /* display: inline-block;
+  vertical-align: middle; */
+  animation: spin 1s linear infinite;
+  background: transparent url("/image/icon_loading.png") no-repeat;
+  background-size: 100%;
+}
+.load_tips {
+  margin-left:10rpx;
+  line-height: 40rpx;
+}
+ @keyframes spin {
+    from {
+      transform: rotate(0deg);
+      transform-origin:50% 50%;
+    }
+    to {
+      transform-origin:50% 50%;
+      transform: rotate(360deg);
+    }
+  }
+.load_end {
+  color: gray;
+  width: 65%;
+  margin: 20rpx auto;
+  font-size: 14px;
+  text-align: center;
+}
+/* 返回顶部 */
+.gotop{
+  height: 60rpx;
+  width: 60rpx;
+  position: fixed;
+  bottom: 50rpx;
+  right: 30rpx;
+  transition: all 0.3s;
+}

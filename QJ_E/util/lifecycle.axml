@@ -1,0 +1,6 @@
+<template name="lifecycle">
+<view key="lifecycle">
+  <button onTap="showLogs" class="lifecycle-btn">show logs</button>
+  <button onTap="clearLogs" class="lifecycle-btn">clear logs</button>
+<view>
+</template>

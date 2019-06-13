@@ -1,0 +1,6 @@
+<view hidden="{{!floorstatus}}" ><image src="/image/gotop.png" class="gotop" onTap="goTop"></image></view>
+  <view class="load_more" hidden="{{!loading}}">
+    <view class="load_loading"></view>
+    <view class="load-tips">加载中...</view>
+  </view>
+  <view class="load_end" hidden="{{!loaded}}">没有更多数据了……</view>

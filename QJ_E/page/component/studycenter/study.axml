@@ -1,0 +1,21 @@
+<view  class="container">
+  <block a:for="{{array}}" a:key="{{index}}"> 
+     <view class="studycon">
+    <view class="studyleft">
+      <image mode="scaleToFill" src="/image/8.png"/>
+    </view>
+    <view class="studyright">
+      <view class="righttop">衢州市市本级行政调解</view>
+      <view class="rightcenter">{{item}}</view>
+      <view class="rightbot" decode="{{true}}" space="{{true}}">
+        <image mode="scaleToFill" src="/image/time.png"/>
+        <view class="data">2017/4/8</view>
+        <view class="coline"></view>
+        <image class="smallimg" mode="scaleToFill" src="/image/see.png"/>
+        <view class="total">32</view>
+      </view>
+    </view>
+  </view>
+  </block>
+  <include src="/util/listview/loadfooter.axml"/> 
+</view>

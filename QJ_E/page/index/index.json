@@ -1,0 +1,14 @@
+{
+  "usingComponents": {
+      
+    },
+    "tabBar": {
+    "items": [{
+      "pagePath": "home",
+      "name": "首页"
+    },{
+      "pagePath": "user",
+      "name": "用户"
+    }]
+  }
+}

@@ -1,0 +1,22 @@
+<view class="mapcon">
+  <map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="{{scale}}" enable-zoom="{{true}}" controls="{{true}}" show-location="{{true}}" style="width: 100%; height: 500rpx;">
+  </map>
+</view>
+<view class="adress">{{adress}}</view>
+<view class="week">{{week}}</view>
+<view class="showloc">
+  <view class="time">
+{{currenttime}}
+  </view>
+  <view class="depatname">
+            辛福村 
+  </view>
+</view>
+<view class="btnfoot">
+  <button size="mini" class="signupbtn" type="primary">
+    <view class="signed">
+                签到
+    </view>
+    <view class="signtime">{{time}}</view>
+  </button>
+</view>

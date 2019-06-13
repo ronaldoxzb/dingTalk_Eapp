@@ -1,0 +1,75 @@
+<import src="/util/grid/index.axml" />
+<import src="/util/items/index.axml"/>
+<view>
+  <view class="swipercon">
+    <swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="9000">
+      <block a:for="{{['今天是星期一','明天是星期二']}}">
+        <swiper-item >
+          <navigator url="/page/component/sign/signup/signup">
+            <image class="swiperimg" mode="scaleToFill" src="/image/6.png"/>
+            <!-- <view class="desc">{{item}}</view> -->
+          </navigator>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class="studycenter">
+    <view class="left"></view>
+    <view class="center">学习专栏</view>
+    <navigator url="/page/component/studycenter/study">
+      <view class="right">更多</view>
+      <view class='arrow'></view>
+    </navigator>
+  </view>
+  <view class="studycon">
+    <view class="studyleft">
+      <image mode="scaleToFill" src="/image/7.png"/>
+    </view>
+    <view class="studyright">
+      <view class="righttop">衢州市市本级行政调解</view>
+      <view class="rightcenter">学懂弄通做实习近平学懂弄通做实实习近平学懂弄通做实习近平学懂弄通做</view>
+      <view class="rightbot" decode="{{true}}" space="{{true}}">
+        <image mode="scaleToFill" src="/image/time.png"/>
+        <view class="data">2017/4/8</view>
+        <view class="coline"></view>
+        <image class="smallimg" mode="scaleToFill" src="/image/see.png"/>
+        <view class="total">32</view>
+      </view>
+    </view>
+  </view>
+  <view class="studycon">
+    <view class="studyleft">
+      <image mode="scaleToFill" src="/image/8.png"/>
+    </view>
+    <view class="studyright">
+      <view class="righttop">衢州市市本级行政调解</view>
+      <view class="rightcenter">学懂弄通做实习近平学懂弄通做实实习近平学懂弄通做实习近平学懂弄通做</view>
+      <view class="rightbot" decode="{{true}}" space="{{true}}">
+        <image mode="scaleToFill" src="/image/time.png"/>
+        <view class="data">2017/4/8</view>
+        <view class="coline"></view>
+        <image class="smallimg" mode="scaleToFill" src="/image/see.png"/>
+        <view class="total">32</view>
+      </view>
+    </view>
+  </view>
+  <view class="studycon">
+    <view class="studyleft">
+      <image mode="scaleToFill" src="/image/9.png"/>
+    </view>
+    <view class="studyright">
+      <view class="righttop">衢州市市本级行政调解</view>
+      <view class="rightcenter">学懂弄通做实习近平学懂弄通做实实习近平学懂弄通做实习近平学懂弄通做</view>
+      <view class="rightbot" decode="{{true}}" space="{{true}}">
+        <image mode="scaleToFill" src="/image/time.png"/>
+        <view class="data">2017/4/8</view>
+        <view class="coline"></view>
+        <image class="smallimg" mode="scaleToFill" src="/image/see.png"/>
+        <view class="total">32</view>
+      </view>
+    </view>
+  </view>
+</view>
+<!--<template is="swiper"></template> -->
+<!--<web-view src="https://www.baidu.com/"></web-view> -->
+<!--<web-view src="http://www.ganbukaohe.com:9000/a/qj/10001/index.jsp"></web-view>  -->

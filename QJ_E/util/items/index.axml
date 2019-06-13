@@ -1,0 +1,35 @@
+<template name="items">
+    <view class="modal" a:if="{{!hidden}}" key="modal">
+        <view class="modal-mask" animation="{{animMaskData}}"/>
+        <view class="modal-container" animation="{{animContentData}}">
+            <view class="modal-close" onTap="onModalCloseTap">×</view>
+            <view class="modal-content">
+                <view class="grid-child">
+                    <view class="grid-child-title">
+                        <text class="c-title">{{list.title}}</text>
+                    </view>
+                    <view class="grid-child-entitle">
+                        <text class="c-entitle">{{list.entitle}}</text>
+                    </view>
+                    <view class="clist">
+                        <view a:for="{{list.subs}}"
+                              class="clist-item"
+                              key="{{item.entitle}}"
+                              onTap="{{onChildItemTap}}"
+                              data-page="{{item.page}}"
+                              a:if="{{!item.hidden}}">
+                            <view class="clist-item-content">
+                                <text class="clist-item-content-title">{{item.title}}</text>
+                                <text class="clist-item-content-subtitle">{{item.entitle}}</text>
+                            </view>
+                            <view class="clist-item-extra">
+                                <image aria-hidden="true" class="c-list-item-arrow" src="/image/arrowright.png"
+                                       mode="aspectFill"/>
+                            </view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</template>

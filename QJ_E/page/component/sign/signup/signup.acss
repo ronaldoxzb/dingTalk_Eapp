@@ -1,0 +1,67 @@
+@import '/util/options/common.acss';
+  .adress {
+    padding: 2.5%;
+    border-radius: .25rem;
+    position: fixed;
+    top: 10rpx;
+    width: 90%;
+    margin: 2.5%;
+    min-height:90rpx;
+    border-width: 0;
+    box-shadow: 0 2px 6px 0 rgba(114, 124, 245, .5);
+    background:rgba(255,255,255,1);
+    box-shadow:0px 0px 8px 0px rgba(0,0,0,0.07);
+}
+.week{ 
+ 	margin-top: 30rpx;
+ 	margin-left: 3%;
+ 	width:94%;
+ 	color: #999999;
+ 	font-weight:500;
+ 	color: #4A4A4A;
+ 	font-size:15px;
+ }
+ .showloc{
+  display: flex;
+  flex-direction: row; 
+ 	margin-top: 30rpx;
+ 	margin-left: 3%;
+   font-size: 16px;
+ 	width:94%;
+ 	color: #999999;
+ }
+ .showloc .time{
+   width:60%;
+ }
+ .showloc .depatname{
+ 	text-align: right;
+ 	overflow: hidden; 
+  font-weight: 400;
+ 	text-overflow:ellipsis; 
+ 	white-space: nowrap;
+ 	width:40%;
+ }
+.btnfoot{
+  margin-top:200rpx;
+  width: 100%;
+}
+.signupbtn{
+    margin: 70rpx auto;
+    margin-bottom: 100rpx;
+    display: flex;
+    flex-direction: column;
+    width: 180rpx;
+    color: #ffffff;
+    font-size: 14px;
+    height: 180rpx;
+    background: -webkit-linear-gradient(rgba(105,132,254,1) 0%, rgba(110,159,255,1) 100%);
+    background: -o-linear-gradient(rgba(105,132,254,1) 0%, rgba(110,159,255,1) 100%);
+    background: linear-gradient(rgba(105,132,254,1) 0%, rgba(110,159,255,1) 100%);
+    border-radius: 50%; 
+}
+.signed{
+  margin-top:15rpx; 
+  }
+.signtime{
+  font-weight: 450;
+}

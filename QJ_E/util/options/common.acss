@@ -1,0 +1,9 @@
+page {
+  background: rgba(255, 255, 255, 1);
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  line-height: 1.6;
+  font-family: -apple-system-font, Helvetica Neue, sans-serif;
+}

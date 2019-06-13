@@ -1,0 +1,126 @@
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+}
+
+.modal-mask {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 999;
+  opacity: 0;
+}
+
+.modal-container {
+  background-color: #fff;
+  z-index: 1000;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  height: 88%;
+  transform: translateY(100%);
+  /* transition: all 2s ease; */
+}
+
+/* .modal-show {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.modal-hide {
+  opacity: 0;
+  transform: scale(0);
+} */
+
+.modal-close {
+  position: absolute;
+  top: 34rpx;
+  right: 60rpx;
+  color: #888;
+  font-size: 80rpx;
+  font-weight: 200;
+}
+
+.modal-content {
+  height: 100%;
+}
+
+.grid-child {
+  padding-top: 40rpx;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.grid-child-title {
+  height: 54rpx;
+  padding: 0 40rpx;
+}
+
+.grid-child-entitle {
+  height: 48rpx;
+  padding: 0 40rpx;
+}
+
+.c-title {
+  font-size: 48rpx;
+}
+
+.c-entitle {
+  font-size: 34rpx;
+  color: #888;
+  line-height: 1.5;
+}
+
+.clist {
+  margin-top: 50rpx;
+  padding: 0 40rpx 20rpx;
+  flex: 1;
+  overflow-y: scroll
+}
+
+.clist-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 144rpx;
+  border-bottom: 1px solid #ddd;
+}
+
+.clist-item:active {
+  background-color: #eee;
+}
+
+.clist-item-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.clist-item-content-title {
+  font-size: 34rpx;
+}
+
+.clist-item-content-subtitle {
+  font-size: 28rpx;
+  color: #888;
+  line-height: 2;
+}
+
+.c-list-item-extra {
+  width: 80rpx;
+}
+
+.c-list-item-arrow {
+  width: 32rpx;
+  height: 32rpx;
+}
